@@ -64,6 +64,22 @@ public:
         }
         
     }
+    void count()
+    {
+         cout<<top+1;
+    }
+    int peek(int pos)
+    {
+        if(isEmpty())
+        {
+            cout<<"Stack Underflow";
+        }
+        else
+        {
+            return arr[pos];
+        }
+        
+    }
 
    
         
